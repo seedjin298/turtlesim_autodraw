@@ -3,6 +3,7 @@
 	<arg name="rotation" default="1" />
 	<arg name="speed" default="1" />
 	<arg name="radius" default="2" />
+	<arg name="num" default="4" />
 
 	<node name="turtlesim" pkg="turtlesim" type="turtlesim_node" />
 	<node name="Client" pkg = "turtlesim_autodraw" type="draw_square_server" output = "screen" respawn="true" />

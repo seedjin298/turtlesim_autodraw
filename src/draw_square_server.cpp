@@ -7,7 +7,7 @@
 
 // 기본 속도; 너무 빠르면 전진 거리/회전 각도가 부정확해진다.
 const double speed = 3;
-const double angular_speed = 0.1;
+const double angular_speed = 1;
 
 // main함수만이 아닌 Service Callback 함수에서도 publisher를 참조해야 하므로 전역 변수로 설정
 // NodeHandler를 전역변수로 설정할 경우 ros::init이 실행되기 전 초기화를 시도하면서 오류가 발생한다.
